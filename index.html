@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Big_Chungus.png">
     <title>My first website</title>
 </head>
 <body>
@@ -62,8 +63,55 @@
 
     <img src="images/Big_ChungusGIF.gif" height="200" width="300"
     alt="Big Chungus Transformation">
-
+    <p>Test_1 song</p>
+    <audio controls>
+        <source src="audio/test_1.mp3">
+    </audio>
     <!--Next will be learning about audio-->
     <!--Rename Test-->
+    <p>
+        normal
+        <b>bold</b>
+        <i>italic</i>
+        <u>underlined</u>
+        <del>deleted</del>
+        <big>BIG</big>
+        <small>small</small>
+        <sub>subscript</sub>
+        <sup>superscript</sup>
+        <tt>monospaced</tt>
+        <mark style="background-color: blueviolet">marked</mark>
+    </p>
+    <!--Span and div-->
+<br>
+<h1><span style="background-color: tomato">This is a span title</span></h1>
+<h1><div style="background-color: cyan">This is a div title</div></h1>
+<p><span style="background-color: tomato">This is a span sentence</span></p>
+<p><div style="background-color: cyan">This is a div sentence</div></p>
+<a href="todolist.html" target="_blank" title="Click to test list tag">
+  Todo list AKA LIST TEST
+</a>
+<br>
+<a href="tabletest.html" target="_blank" title="Click to test table tag">
+    Table test
+</a>
+<hr>
+<a target="_blank" href="https://www.youtube.com/watch?v=DJfg39WkMvE" title="click ME!">
+<button style="font-size: 25px; background-color: darkgreen; color: bisque;
+border-radius: 10px;">
+    click me!
+</button>
+</a>
+<br>
+<button onclick="pangsai()" style="font-size: 25px; background-color: darkred; color: bisque;
+border-radius: 10px;">
+    click me!
+</button>
+<p id="greeting">HELLO</p>
+    <script>
+        function pangsai(){
+            document.getElementById("greeting").innerHTML = "GOODBYE";
+        }
+    </script>
 </body>
 </html>
